@@ -1,0 +1,7 @@
+mycrawler
+setup.py
+MylittleCrawler.egg-info/PKG-INFO
+MylittleCrawler.egg-info/SOURCES.txt
+MylittleCrawler.egg-info/dependency_links.txt
+MylittleCrawler.egg-info/requires.txt
+MylittleCrawler.egg-info/top_level.txt
