@@ -1,6 +1,16 @@
 2011-03-27  Oliver Mas Otero  <olidroide@gmail.com>
+	
+	Add the follow files:
 
-	* NEWS:
+	* ChangeLog
+	* AUTHORS
+	* COPYING
+	* TODO
+	* README
+	
+	Modify this file:
 
-	Release 0.4
+	* mylittlecrawler
+		Remove the tab for spaces.
+		Some of style of Python code.
 
