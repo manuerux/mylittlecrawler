@@ -1,0 +1,34 @@
+Requirements
+------------
+mylittlecrawler needs the following dependencies:
+
+    * python-mysqldb
+    * mysql-server
+
+Install
+-------
+You can install mylittlecrawler running setup.py script:
+
+    # python setup.py install
+
+If you don't have root privileges, use the --prefix option to indicate the directory where mlstats will be installed. For more details, take a look at the help of the installer:
+
+    $ python setup.py install --help
+
+You are ready to use mylittlecrawler!
+
+Running mylittlecrawler
+----------------
+
+More options, and a more detailed info about the options, can be
+learnt by running "mylittlecrawler --help"
+
+Main authors
+------------
+
+Manuel Muiña                 <manuerux at gmail.com>
+Oliver Mas Otero             <olidroide at gmail.com>
+
+Contributors
+------------
+
