@@ -10,12 +10,12 @@ import os
 _opener = urllib2.build_opener()
 _opener.addheaders = [('user-agent',USER_AGENT)]
 
-parser = argparse.ArgumentParser(description = "Living on a craaaaaaaaaaaaawler!!!!!")
+parser = argparse.ArgumentParser(description = "Living on a crawler!!!!!")
 
 parser.add_argument("url", nargs=1, help = "target URL")
 
 parser.add_argument("-n", "--number-of-levels", type = int, default = 1,
- help="how deep the crawl will go? and Who let the dogs out??")
+ help="You have to specify the levels you want")
 
 args = parser.parse_args()
 
@@ -38,7 +38,7 @@ def deeper(target_url, deep):
        raw_code = _opener.open(target_url).read()
        
     except urllib2.URLError:
-        print "hubor un error que te cagas al ver el " + target_url
+        print "there was a mistake in the process of looking up  " + target_url
         return False
         
     soup_code = Soup(raw_code)
