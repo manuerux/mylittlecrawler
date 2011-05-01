@@ -1,3 +1,4 @@
+README
 mycrawler
 setup.py
 MylittleCrawler.egg-info/PKG-INFO

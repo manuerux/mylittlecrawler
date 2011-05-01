@@ -1,0 +1,15 @@
+Source: mylittlecrawler
+Section: unknown
+Priority: extra
+Maintainer: Manuel Muiña <manuerux@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/mylittlecrawler.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/mylittlecrawler.git;a=summary
+
+Package: mylittlecrawler
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
